@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+	color: white;
+}
+
+#landing {
+
+	color: black;
+}
+.btn{
+    border-radius: 2px !important;
+}
+li {
+ list-style-type: none;
+	
+}
+
+.no-padding {
+  padding-left: 0;
+  padding-right: 0;
+}
+.img-header {
+     position: relative;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: max-content;
+    height: max-content;
+}
+.button-header {
+
+ margin-left: 35%;
+}
+#email-header {
+    color: black;
+}
+@media(min-width: 1200px){
+.img-header {
+position: absolute;
+
+   
+}
+
+}
+@media(min-width: 750px){
+    .img-header {
+    position: absolute;
+ 
+ 
+    }
+}
+@media(min-width: 640px min-height: 360) {
+    .img-header {
+    position: absolute;
+   
+  
+    }
+}
+@media(min-width: 823px) {
+    .img-header {
+        position: absolute;
+    
+
+    }
+}
