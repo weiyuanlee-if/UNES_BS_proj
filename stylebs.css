@@ -35,7 +35,7 @@ li {
     width: max-content;
     height: max-content;
 }
-.button-header {
+.button-align  {
 
  margin-left: 35%;
 }
@@ -43,6 +43,9 @@ li {
     color: black;
 }
 footer {
+  color: black;
+}
+#attributes {
   color: black;
 }
 @media(min-width: 1200px){
