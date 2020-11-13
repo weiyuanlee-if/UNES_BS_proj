@@ -42,6 +42,9 @@ li {
 #email-header {
     color: black;
 }
+footer {
+  color: black;
+}
 @media(min-width: 1200px){
 .img-header {
 position: absolute;
