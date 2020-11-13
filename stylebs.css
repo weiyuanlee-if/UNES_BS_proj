@@ -35,9 +35,12 @@ li {
     width: max-content;
     height: max-content;
 }
-.button-align  {
+.button-header-align  {
 
  margin-left: 35%;
+}
+.button-landing-align {
+margin-left: 45%;
 }
 #email-header {
     color: black;
