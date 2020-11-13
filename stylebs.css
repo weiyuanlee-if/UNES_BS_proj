@@ -51,6 +51,9 @@ footer {
 #attributes {
   color: black;
 }
+#picture-grid {
+  color: black;
+}
 @media(min-width: 1200px){
 .img-header {
 position: absolute;
