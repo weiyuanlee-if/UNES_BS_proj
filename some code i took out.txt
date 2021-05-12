@@ -1,0 +1,152 @@
+<header class="masthead">
+<div id="intropage">
+
+  <div class="container-fluid no-padding">
+
+  <img class="img-fluid" src="images/bluesnes.jpg" alt="Blue SNES by Ravi Palwe">
+
+  <div class="img-header ">
+<h1 class="text-center pt-5 pb-3">Play Retro In Every Decade</h1> 
+  <a type="submit" class="btn btn-outline-light pt-2 pb-2 button-header-align js-scroll-trigger" href="#landing">Learn More</a>
+</div>
+</div>
+</div>
+
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto&display=swap');
+
+body {
+	color: white;
+  overflow-x: hidden;
+}
+
+#landing {
+
+	color: black;
+}
+.btn{
+    border-radius: 2px !important;
+}
+li {
+ list-style-type: none;
+	
+}
+
+.no-padding {
+  padding-left: 0;
+  padding-right: 0;
+}
+.img-header {
+     position: relative;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: max-content;
+    height: max-content;
+}
+.button-header-align  {
+
+ margin-left: 35%;
+}
+.button-landing-align {
+margin-left: 45%;
+}
+#email-header {
+    color: black;
+}
+footer {
+  color: black;
+}
+#attributes {
+  color: black;
+}
+.picture-grid {
+  color: black;
+}
+@media only screen and (min-width: 1200px) {
+.img-header {
+position: absolute;   
+}
+body {
+overflow-x: hidden;
+}
+}
+
+@media only screen and (max-width: 600px){
+  .img-header {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: max-content;
+    height: max-content;
+    }
+    .button-header-align  {
+      margin-top: 0px;
+      margin-left: 35%;
+     }
+     body {
+      overflow-x: hidden;
+      }
+}
+@media only screen and (min-width: 600px)  {
+  .img-header {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: max-content;
+    height: max-content;
+    }
+    .button-header-align  {
+      margin-top: 0px;
+      margin-left: 35%;
+     }
+     body {
+      overflow-x: hidden;
+      }
+}
+@media only screen and (min-width: 768px) {
+  .img-header {
+   margin-top: 50%;
+   margin-bottom: 50%;
+    }
+    .button-header-align  {
+      margin-top: 50%;
+   margin-bottom: 50%;
+      position: absolute;
+      padding-bottom: 50%;
+      margin-left: 35%;
+     }
+     body {
+      overflow-x: hidden;
+      }
+
+}
+@media only screen and (min-width: 992px) {
+.img-header {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: max-content;
+  height: max-content;
+  }
+  .button-header-align  {
+    margin-top: 0px;
+    margin-left: 35%;
+   }
+   body {
+    overflow-x: hidden;
+    }
+  }

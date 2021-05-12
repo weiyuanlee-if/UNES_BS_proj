@@ -12,144 +12,142 @@
 </head>
 <body>
 
-<!---This is all the header and nav--->
-<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
-<a class="navbar-brand" href="#intropage">UNES</a>
-<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-    <div class="navbar-nav">
-    	
-<a class="navbar-brand" href="#features">Features</a>
-<a class="navbar-brand" href="#works">How It Works</a>
-<a class="navbar-brand" href="#email-header">Contact Us</a>
+  <!---This is all the header and nav--->
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+  <a class="navbar-brand" href="#intropage">UNES</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        
+  <a class="navbar-brand" href="#features">Features</a>
+  <a class="navbar-brand" href="#works">How It Works</a>
+  <a class="navbar-brand" href="#email-header">Contact Us</a>
+    </div>
+    </div>
+  </nav>
+  <!--- This is all the header and nav bar --->
+  
+  <!-- This is the intro page presenting the remote control --->
+  <header class="masthead">
+  <div id="intropage">
+  <!-- So made a couple changes here, header container contains your background image using a css class, and the background-image: url() property. Feel free to adjust as needed. the div containing the header and button I just changed by adding padding to the top to position them, then added auto margin on the horizontal axis to keep them centered. Additionally, I sized the button using the btn class in css. I removed pretty much all your media queries as they were no longer needed. -->
+  <div class="header-container">
+   <div class="header-position">
+  <h1 class="text-center text-white pt-5 pb-3">Play Retro In Every Decade</h1> 
+    <a type="submit" class="btn btn-outline-light d-block mx-auto js-scroll-trigger" href="#landing">Learn More</a>
   </div>
-  </div>
-</nav>
-<!--- This is all the header and nav bar --->
-
-<!-- This is the intro page presenting the remote control --->
-<header class="masthead">
-<div id="intropage">
-
-  <div class="container-fluid no-padding">
-
-  <img class="img-fluid" src="images/bluesnes.jpg" alt="Blue SNES by Ravi Palwe">
-
-  <div class="img-header ">
-<h1 class="text-center pt-5 pb-3">Play Retro In Every Decade</h1> 
-  <a type="submit" class="btn btn-outline-light pt-2 pb-2 button-header-align js-scroll-trigger" href="#landing">Learn More</a>
-</div>
-</div>
-</div>
-
-
-</header>
-
-<div id="landing">
-<div class="row bg-primary pt-5 pb-5">
-	<div class="row col-sm-8 text-center mx-auto pt-5 pb-5">
-		<h1 class="text-white text-center mx-auto">Revisit The Past</h1>
-<p class="text-white text-center pt-5 mx-auto pb-5">The UNES returns the past of gaming in one system. Now you can play a vast catalog of gaming history without ever having to hunt for an out of print cartridge. Now you can play <i>Phantasy Star</i> and <i>Castlevania</i> all in one system without fear of your old system taking its final breathe.</p>
-
-</div>
-</div>
-</div>
-
-<div id="features" class="picture-grid">
-
- <div class="row justify-content-center no-gutters mb-5 mb-sm-0">
- <div class="col-sm-6"><img class="img-fluid mx-auto float-left" src="images/mario-3631666_640.png" alt="Super Mario Bros. on the NES"></div>
-         <div class="col-sm-6 ">
-         <div class="text-center h-100 project">
-         <div class="d-flex h-100">
-         <div class="project-text w-100 my-auto text-center text-sm-left col-sm-8 mx-auto">
-         <h4 class="">Classic Mario</h4>
-      <p class="mb-0">Play some of the very first installments of the Mario franchise such as <i>Mario Bros</i>, <i>Super Mario All-Stars</i>, and <i>Dr. Mario</i></p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-        <div class="row justify-content-center no-gutters mb-5 mb-sm-0">
-          <div class="col-sm-6 mx-auto"><img class="img-fluid float-right mx-auto " src="images/background-3311042_640.jpg" alt="Space Invaders on the NES"></div>
-           <div class="col-sm-6 order-sm-first">
-         <div class="text-center h-100 project">
-          <div class="d-flex h-100">
-            <div class="project-text w-100 my-auto text-center text-sm-right col-sm-8 mx-auto">
-                                    <h4>Space Invaders and More</h4>
-                                    <p class="mb-0">The origins of forgotten classics such as <i>Space Invaders</i> comes back to life. <i>Yoshi's Island</i> and <i>Metriod</i> can be enjoyed again.</p>
-                                   
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
-<div id="attributes">
-<div class="row pt-5 bg-white text-black">
-
-		   <div class="col-sm-4 text-center">
-        <h2 id="works">How It Works</h2>
-         <span class="fa-stack fa-4x text-center">
-        <i class="fas fa-download text-primary text-center" id="social-media"></i>
-    </span>
-      <p class="text-center">Play all SNES and NES games on one system</p>
-        <p class="text-center">Controls are mapped to fit current remotes</p>
-     <p class="text-center">Sound and visuals are fit to your TV</p>
-  </div>
-
-
-	    <div class="col-sm-4 text-center">
-  <h2 id="online">Online Play</h2>
-   <span class="fa-stack fa-4x text-center">
-  <i class="fas fa-laptop text-primary text-center" id="social-media"></i>
-</span>
-   <p class="text-center">Costs $5 a Month</p>
-  <p class="text-center">Play and chat with friends</p>
-   <p class="text-center">Wireless connection</p>
-  </div>
-
-
-   <div class="col-sm-4 text-center">
-  <h2 id="worksheading">How It Works</h2>
- <span class="fa-stack fa-4x">
-  <i class="fas fa-gamepad text-primary text-center" id="social-media"></i>
-</span>
-   <p class="text-center">Games are provided digitally through a cloud to be downloaded</p>
-   <p class="text-center">All games are emulated</p>
-   <p class="text-center">Games are now files instead of cartridges</p>
-   </div>
-</div>
-
-
-  </div>
- </div>
-</div>
-
- 
- <!--Email -->
-
- <div class="container">
-  <div class="row">
-     <div class="col-sm-10 col-sm-8 mx-auto text-center pt-3">
-       <h1 id="email-header">Sign Up For Updates</h1>
-       <span class="fa-stack fa-4x">
-<i class="far fa-envelope text-primary text-center"></i>
-       </span>
-     </div>
-      <div class="col-sm-10 col-sm-8 mx-auto text-center pt-1 pb-5">
-          <form class="form-inline d-flex">
-           
-                <input type="email" class="form-control flex-fill ml-0 mr-0 ml-sm-2 mr-sm-2 mb-3 mb-sm-0" placeholder="Enter your email">
-                <button type="submit" class="btn btn-primary mx-auto">Submit</button>
-                </form>
-          </div>
     </div>
   </div>
+  
+  
+  </header>
+  
+  <div id="landing">
+  <div class="row bg-primary pt-5 pb-5">
+    <div class="row col-sm-8 text-center mx-auto pt-5 pb-5">
+      <h1 class="text-white text-center mx-auto">Revisit The Past</h1>
+  <p class="text-white text-center pt-5 mx-auto pb-5">The UNES returns the past of gaming in one system. Now you can play a vast catalog of gaming history without ever having to hunt for an out of print cartridge. Now you can play <i>Phantasy Star</i> and <i>Castlevania</i> all in one system without fear of your old system taking its final breathe.</p>
+  
+  </div>
+  </div>
+  </div>
+  
+  <div id="features" class="picture-grid">
+  
+   <div class="row justify-content-center no-gutters mb-5 mb-sm-0">
+   <div class="col-sm-6"><img class="img-fluid mx-auto float-left" src="images/mario-3631666_640.png" alt="Super Mario Bros. on the NES"></div>
+           <div class="col-sm-6 ">
+           <div class="text-center h-100 project">
+           <div class="d-flex h-100">
+           <div class="project-text w-100 my-auto text-center text-sm-left col-sm-8 mx-auto">
+           <h4 class="">Classic Mario</h4>
+        <p class="mb-0">Play some of the very first installments of the Mario franchise such as <i>Mario Bros</i>, <i>Super Mario All-Stars</i>, and <i>Dr. Mario</i></p>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+          <div class="row justify-content-center no-gutters mb-5 mb-sm-0">
+            <div class="col-sm-6 mx-auto"><img class="img-fluid float-right mx-auto " src="images/background-3311042_640.jpg" alt="Space Invaders on the NES"></div>
+             <div class="col-sm-6 order-sm-first">
+           <div class="text-center h-100 project">
+            <div class="d-flex h-100">
+              <div class="project-text w-100 my-auto text-center text-sm-right col-sm-8 mx-auto">
+                                      <h4>Space Invaders and More</h4>
+                                      <p class="mb-0">The origins of forgotten classics such as <i>Space Invaders</i> comes back to life. <i>Yoshi's Island</i> and <i>Metriod</i> can be enjoyed again.</p>
+                                     
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+  
+  
+  <div id="attributes">
+  <div class="row pt-5 bg-white text-black">
+  
+         <div class="col-sm-4 text-center">
+          <h2 id="works">How It Works</h2>
+           <span class="fa-stack fa-4x text-center">
+          <i class="fas fa-download text-primary text-center" id="social-media"></i>
+      </span>
+        <p class="text-center">Play all SNES and NES games on one system</p>
+          <p class="text-center">Controls are mapped to fit current remotes</p>
+       <p class="text-center">Sound and visuals are fit to your TV</p>
+    </div>
+  
+  
+        <div class="col-sm-4 text-center">
+    <h2 id="online">Online Play</h2>
+     <span class="fa-stack fa-4x text-center">
+    <i class="fas fa-laptop text-primary text-center" id="social-media"></i>
+  </span>
+     <p class="text-center">Costs $5 a Month</p>
+    <p class="text-center">Play and chat with friends</p>
+     <p class="text-center">Wireless connection</p>
+    </div>
+  
+  
+     <div class="col-sm-4 text-center">
+    <h2 id="worksheading">How It Works</h2>
+   <span class="fa-stack fa-4x">
+    <i class="fas fa-gamepad text-primary text-center" id="social-media"></i>
+  </span>
+     <p class="text-center">Games are provided digitally through a cloud to be downloaded</p>
+     <p class="text-center">All games are emulated</p>
+     <p class="text-center">Games are now files instead of cartridges</p>
+     </div>
+  </div>
+  
+  
+    </div>
+   </div>
+  </div>
+  
+   
+   <!--Email -->
+  
+   <div class="container">
+    <div class="row">
+       <div class="col-sm-10 col-sm-8 mx-auto text-center pt-3">
+         <h1 id="email-header">Sign Up For Updates</h1>
+         <span class="fa-stack fa-4x">
+  <i class="far fa-envelope text-primary text-center"></i>
+         </span>
+       </div>
+        <div class="col-sm-10 col-sm-8 mx-auto text-center pt-1 pb-5">
+            <form class="form-inline d-flex">
+             
+                  <input type="email" class="form-control flex-fill ml-0 mr-0 ml-sm-2 mr-sm-2 mb-3 mb-sm-0" placeholder="Enter your email">
+                  <button type="submit" class="btn btn-primary mx-auto">Submit</button>
+                  </form>
+            </div>
+      </div>
+    </div>
+  
 
 
   <!-- Footer -->

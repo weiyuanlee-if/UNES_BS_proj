@@ -6,6 +6,18 @@ body {
 	color: white;
   overflow-x: hidden;
 }
+.header-container {
+    background-image: url(https://images.unsplash.com/photo-1599409333465-8b0b9e905f37?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80);
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 75vh;
+}
+.header-position {
+  padding: 100px 0;
+margin: 0 auto;
+}
 
 #landing {
 
@@ -13,6 +25,7 @@ body {
 }
 .btn{
     border-radius: 2px !important;
+    width: 175px;
 }
 li {
  list-style-type: none;
@@ -23,23 +36,7 @@ li {
   padding-left: 0;
   padding-right: 0;
 }
-.img-header {
-     position: relative;
-    left: 0;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto;
-    width: max-content;
-    height: max-content;
-}
-.button-header-align  {
 
- margin-left: 35%;
-}
-.button-landing-align {
-margin-left: 45%;
-}
 #email-header {
     color: black;
 }
@@ -52,88 +49,3 @@ footer {
 .picture-grid {
   color: black;
 }
-@media only screen and (min-width: 1200px) {
-.img-header {
-position: absolute;   
-}
-body {
-overflow-x: hidden;
-}
-}
-
-@media only screen and (max-width: 600px){
-  .img-header {
-    position: absolute;
-    left: 0;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto;
-    width: max-content;
-    height: max-content;
-    }
-    .button-header-align  {
-      margin-top: 0px;
-      margin-left: 35%;
-     }
-     body {
-      overflow-x: hidden;
-      }
-}
-@media only screen and (min-width: 600px)  {
-  .img-header {
-    position: absolute;
-    left: 0;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto;
-    width: max-content;
-    height: max-content;
-    }
-    .button-header-align  {
-      margin-top: 0px;
-      margin-left: 35%;
-     }
-     body {
-      overflow-x: hidden;
-      }
-}
-@media only screen and (min-width: 768px) {
-  .img-header {
-    position: absolute;
-    left: 0;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto;
-    width: max-content;
-    height: max-content;
-    }
-    .button-header-align  {
-      margin-top: 0px;
-      margin-left: 35%;
-     }
-     body {
-      overflow-x: hidden;
-      }
-}
-@media only screen and (min-width: 992px) {
-.img-header {
-  position: absolute;
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  margin: auto;
-  width: max-content;
-  height: max-content;
-  }
-  .button-header-align  {
-    margin-top: 0px;
-    margin-left: 35%;
-   }
-   body {
-    overflow-x: hidden;
-    }
-  }
