@@ -1,12 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto&display=swap');
-* {
-  margin: 0;
-  padding: 0;
-}
+
 body {
 	color: white;
+  overflow-x: hidden;
 }
 
 #landing {
@@ -51,35 +49,91 @@ footer {
 #attributes {
   color: black;
 }
-#picture-grid {
+.picture-grid {
   color: black;
 }
-@media(min-width: 1200px){
+@media only screen and (min-width: 1200px) {
 .img-header {
-position: absolute;
-
-   
+position: absolute;   
+}
+body {
+overflow-x: hidden;
+}
 }
 
-}
-@media(min-width: 750px){
-    .img-header {
+@media only screen and (max-width: 600px){
+  .img-header {
     position: absolute;
- 
- 
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: max-content;
+    height: max-content;
     }
+    .button-header-align  {
+      margin-top: 0px;
+      margin-left: 35%;
+     }
+     body {
+      overflow-x: hidden;
+      }
 }
-@media(min-width: 640px min-height: 360) {
-    .img-header {
+@media only screen and (min-width: 600px)  {
+  .img-header {
     position: absolute;
-   
-  
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: max-content;
+    height: max-content;
     }
+    .button-header-align  {
+      margin-top: 0px;
+      margin-left: 35%;
+     }
+     body {
+      overflow-x: hidden;
+      }
 }
-@media(min-width: 823px) {
-    .img-header {
-        position: absolute;
-    
-
+@media only screen and (min-width: 768px) {
+  .img-header {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: max-content;
+    height: max-content;
     }
+    .button-header-align  {
+      margin-top: 0px;
+      margin-left: 35%;
+     }
+     body {
+      overflow-x: hidden;
+      }
 }
+@media only screen and (min-width: 992px) {
+.img-header {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: max-content;
+  height: max-content;
+  }
+  .button-header-align  {
+    margin-top: 0px;
+    margin-left: 35%;
+   }
+   body {
+    overflow-x: hidden;
+    }
+  }
